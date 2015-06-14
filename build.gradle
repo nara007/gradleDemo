@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'hello.Hello'
+
+repositories{
+	mavenLocal()
+	mavenCentral()
+}
+dependencies{
+compile 'org.springframework:spring-context:4.1.6.RELEASE'
+}
